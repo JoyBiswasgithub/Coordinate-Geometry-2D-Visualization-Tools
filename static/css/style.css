@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Add some basic styling for the nav bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1000; /* Ensure nav stays above other content */
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    margin-top: 60px; /* Ensure content does not hide under the fixed nav */
+}
